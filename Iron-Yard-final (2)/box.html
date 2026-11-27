@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore les implantations Iron Yard, les salles d’entraînement et les espaces de récupération.">
+<meta name="theme-color" content="#191815">
+<title>Les clubs | Iron Yard</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-box">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="club-mast">
+ <div class="wrap mast-line">
+  <a class="club-logotype" href="index.html"><img src="images/favicon.png" alt="" width="64" height="64"><span>IRON YARD<small>TRAINING CLUB</small></span></a>
+  <div class="mast-actions"><button type="button" class="menu-open" aria-haspopup="dialog" aria-controls="club-navigation" hidden>Menu <span aria-hidden="true" class="menu-lines"></span></button></div>
+ </div>
+ <dialog id="club-navigation" class="menu-screen" aria-label="Menu">
+  <div class="wrap mast-line"><span class="club-logotype">IRON YARD</span><form method="dialog"><button class="menu-close" autofocus>Fermer le menu <span aria-hidden="true">×</span></button></form></div>
+  <nav aria-label="Navigation principale" class="wrap menu-directory"><section><h2>Le projet</h2><ul><li><a href="index.html">Accueil <span aria-hidden="true">↗</span></a></li><li><a href="informations.html">Informations <span aria-hidden="true">↗</span></a></li></ul></section><section><h2>Le réseau</h2><ul><li><a href="box.html" aria-current="page">Les clubs <span aria-hidden="true">↗</span></a></li><li><a href="vie-du-club.html">Vie du club <span aria-hidden="true">↗</span></a></li></ul></section><section><h2>S’entraîner</h2><ul><li><a href="cours.html">Planning <span aria-hidden="true">↗</span></a></li><li><a href="competitions.html">Prépa compétitions <span aria-hidden="true">↗</span></a></li></ul></section><section><h2>Rejoindre</h2><ul><li><a href="inscription.html">Inscription <span aria-hidden="true">↗</span></a></li><li><a href="recrutement.html">Recrutement <span aria-hidden="true">↗</span></a></li></ul></section></nav>
+ </dialog>
+</header>
+<main id="contenu">
+<header class="club-atlas"><div class="wrap"><p class="eyebrow">Le réseau Iron Yard</p><h1>Les clubs</h1><p class="lede">20 implantations envisagées en France. Trouve la salle de ton choix et découvre l’esprit Iron Yard.</p><a class="btn" href="#annuaire">Voir les 20 clubs ↓</a></div><img src="images/club-hybride.jpg" alt="Salle avec ergomètres, sleds et couloirs d’entraînement" width="1080" height="959" decoding="async" fetchpriority="high"></header>
+<section class="wrap section" id="annuaire" aria-labelledby="titre-annuaire">
+  <h2 id="titre-annuaire">Trouver un club</h2>
+  <p>Les 20 implantations sont envisagées dans le cadre de ce projet fictif. Montreuil sert de club pilote pour le planning et les stages.</p>
+  <div class="club-locator" hidden>
+    <div class="club-panel">
+      <label for="club-choice">Sélectionne une ville ou un point sur la carte.</label>
+      <select id="club-choice">
+      <option value="0">Paris · Nation</option>
+      <option value="1" selected>Montreuil · Croix de Chavaux · Club pilote</option>
+      <option value="2">Lille · Euralille</option>
+      <option value="3">Strasbourg · Neudorf</option>
+      <option value="4">Reims · Centre</option>
+      <option value="5">Dijon · Centre</option>
+      <option value="6">Nantes · Île de Nantes</option>
+      <option value="7">Rennes · Centre</option>
+      <option value="8">Angers · Saint-Serge</option>
+      <option value="9">Le Havre · Docks</option>
+      <option value="10">Brest · Port de commerce</option>
+      <option value="11">Bordeaux · Bassins à flot</option>
+      <option value="12">Toulouse · Montaudran</option>
+      <option value="13">Lyon · Confluence</option>
+      <option value="14">Marseille · La Joliette</option>
+      <option value="15">Nice · Arenas</option>
+      <option value="16">Montpellier · Port Marianne</option>
+      <option value="17">Grenoble · Presqu’île</option>
+      <option value="18">Toulon · Centre</option>
+      <option value="19">Saint-Étienne · Châteaucreux</option>
+      </select>
+      <div class="club-sheets" aria-live="polite">
+    <article class="club-sheet" data-club-sheet="0" hidden>
+      <h3>Paris</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Nation</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Paris#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="1">
+      <h3>Montreuil</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Croix de Chavaux · Club pilote</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Montreuil#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="2" hidden>
+      <h3>Lille</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Euralille</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Lille#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="3" hidden>
+      <h3>Strasbourg</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Neudorf</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Strasbourg#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="4" hidden>
+      <h3>Reims</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Centre</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Reims#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="5" hidden>
+      <h3>Dijon</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Centre</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Dijon#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="6" hidden>
+      <h3>Nantes</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Île de Nantes</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Nantes#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="7" hidden>
+      <h3>Rennes</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Centre</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Rennes#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="8" hidden>
+      <h3>Angers</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Saint-Serge</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Angers#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="9" hidden>
+      <h3>Le Havre</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Docks</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Le%20Havre#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="10" hidden>
+      <h3>Brest</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Port de commerce</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Brest#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="11" hidden>
+      <h3>Bordeaux</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Bassins à flot</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Bordeaux#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="12" hidden>
+      <h3>Toulouse</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Montaudran</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Toulouse#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="13" hidden>
+      <h3>Lyon</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Confluence</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Lyon#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="14" hidden>
+      <h3>Marseille</h3>
+      <dl>
+        <dt>Quartier</dt><dd>La Joliette</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Marseille#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="15" hidden>
+      <h3>Nice</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Arenas</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Nice#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="16" hidden>
+      <h3>Montpellier</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Port Marianne</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Montpellier#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="17" hidden>
+      <h3>Grenoble</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Presqu’île</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Grenoble#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="18" hidden>
+      <h3>Toulon</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Centre</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Toulon#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="club-sheet" data-club-sheet="19" hidden>
+      <h3>Saint-Étienne</h3>
+      <dl>
+        <dt>Quartier</dt><dd>Châteaucreux</dd>
+        <dt>Adresse</dt><dd>Adresse à confirmer</dd>
+        <dt>Horaires prévisionnels</dt>
+        <dd>Lundi au vendredi · 7 h à 21 h<br>Samedi · 9 h à 13 h<br>Dimanche · fermé</dd>
+      </dl>
+      <a class="textlink" href="inscription.html?club=Saint-%C3%89tienne#formulaire">Choisir ce club <span aria-hidden="true">↗</span></a>
+    </article>
+      </div>
+    </div>
+    <div class="club-map" role="group" aria-label="Carte de France métropolitaine">
+      <img src="images/france-metropolitaine.svg" alt="" width="600" height="600">
+    <button type="button" class="club-pin" style="--x:48.667%;--y:24.100%" data-club="0" aria-label="Paris · Nation" aria-pressed="false" title="Paris"></button>
+    <button type="button" class="club-pin" style="--x:55.253%;--y:25.340%" data-club="1" aria-label="Montreuil · Croix de Chavaux · Club pilote" aria-pressed="true" title="Montreuil"></button>
+    <button type="button" class="club-pin" style="--x:56.140%;--y:8.227%" data-club="2" aria-label="Lille · Euralille" aria-pressed="false" title="Lille"></button>
+    <button type="button" class="club-pin" style="--x:85.780%;--y:27.547%" data-club="3" aria-label="Strasbourg · Neudorf" aria-pressed="false" title="Strasbourg"></button>
+    <button type="button" class="club-pin" style="--x:62.157%;--y:21.107%" data-club="4" aria-label="Reims · Centre" aria-pressed="false" title="Reims"></button>
+    <button type="button" class="club-pin" style="--x:68.553%;--y:39.213%" data-club="5" aria-label="Dijon · Centre" aria-pressed="false" title="Dijon"></button>
+    <button type="button" class="club-pin" style="--x:26.817%;--y:40.333%" data-club="6" aria-label="Nantes · Île de Nantes" aria-pressed="false" title="Nantes"></button>
+    <button type="button" class="club-pin" style="--x:25.993%;--y:31.840%" data-club="7" aria-label="Rennes · Centre" aria-pressed="false" title="Rennes"></button>
+    <button type="button" class="club-pin" style="--x:33.150%;--y:37.627%" data-club="8" aria-label="Angers · Saint-Serge" aria-pressed="false" title="Angers"></button>
+    <button type="button" class="club-pin" style="--x:37.457%;--y:18.960%" data-club="9" aria-label="Le Havre · Docks" aria-pressed="false" title="Le Havre"></button>
+    <button type="button" class="club-pin" style="--x:8.260%;--y:29.320%" data-club="10" aria-label="Brest · Port de commerce" aria-pressed="false" title="Brest"></button>
+    <button type="button" class="club-pin" style="--x:33.150%;--y:62.080%" data-club="11" aria-label="Bordeaux · Bassins à flot" aria-pressed="false" title="Bordeaux"></button>
+    <button type="button" class="club-pin" style="--x:46.007%;--y:74.213%" data-club="12" aria-label="Toulouse · Montaudran" aria-pressed="false" title="Toulouse"></button>
+    <button type="button" class="club-pin" style="--x:67.160%;--y:53.293%" data-club="13" aria-label="Lyon · Confluence" aria-pressed="false" title="Lyon"></button>
+    <button type="button" class="club-pin" style="--x:69.643%;--y:76.640%" data-club="14" aria-label="Marseille · La Joliette" aria-pressed="false" title="Marseille"></button>
+    <button type="button" class="club-pin" style="--x:82.297%;--y:73.280%" data-club="15" aria-label="Nice · Arenas" aria-pressed="false" title="Nice"></button>
+    <button type="button" class="club-pin" style="--x:61.397%;--y:73.933%" data-club="16" aria-label="Montpellier · Port Marianne" aria-pressed="false" title="Montpellier"></button>
+    <button type="button" class="club-pin" style="--x:72.797%;--y:59.093%" data-club="17" aria-label="Grenoble · Presqu’île" aria-pressed="false" title="Grenoble"></button>
+    <button type="button" class="club-pin" style="--x:75.357%;--y:79.580%" data-club="18" aria-label="Toulon · Centre" aria-pressed="false" title="Toulon"></button>
+    <button type="button" class="club-pin" style="--x:63.167%;--y:58.093%" data-club="19" aria-label="Saint-Étienne · Châteaucreux" aria-pressed="false" title="Saint-Étienne"></button>
+    </div>
+  </div>
+  <noscript>
+<div class="city-directory"><section class="city-region"><h3>Île-de-France</h3><ul><li><a href="inscription.html?club=Paris#formulaire"><span><strong>Paris</strong><small>Nation</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Montreuil#formulaire"><span><strong>Montreuil</strong><small>Croix de Chavaux · Club pilote</small></span><span aria-hidden="true">↗</span></a></li></ul></section><section class="city-region"><h3>Nord et Est</h3><ul><li><a href="inscription.html?club=Lille#formulaire"><span><strong>Lille</strong><small>Euralille</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Strasbourg#formulaire"><span><strong>Strasbourg</strong><small>Neudorf</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Reims#formulaire"><span><strong>Reims</strong><small>Centre</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Dijon#formulaire"><span><strong>Dijon</strong><small>Centre</small></span><span aria-hidden="true">↗</span></a></li></ul></section><section class="city-region"><h3>Ouest</h3><ul><li><a href="inscription.html?club=Nantes#formulaire"><span><strong>Nantes</strong><small>Île de Nantes</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Rennes#formulaire"><span><strong>Rennes</strong><small>Centre</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Angers#formulaire"><span><strong>Angers</strong><small>Saint-Serge</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Le%20Havre#formulaire"><span><strong>Le Havre</strong><small>Docks</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Brest#formulaire"><span><strong>Brest</strong><small>Port de commerce</small></span><span aria-hidden="true">↗</span></a></li></ul></section><section class="city-region"><h3>Sud-Ouest</h3><ul><li><a href="inscription.html?club=Bordeaux#formulaire"><span><strong>Bordeaux</strong><small>Bassins à flot</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Toulouse#formulaire"><span><strong>Toulouse</strong><small>Montaudran</small></span><span aria-hidden="true">↗</span></a></li></ul></section><section class="city-region"><h3>Sud-Est</h3><ul><li><a href="inscription.html?club=Lyon#formulaire"><span><strong>Lyon</strong><small>Confluence</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Marseille#formulaire"><span><strong>Marseille</strong><small>La Joliette</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Nice#formulaire"><span><strong>Nice</strong><small>Arenas</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Montpellier#formulaire"><span><strong>Montpellier</strong><small>Port Marianne</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Grenoble#formulaire"><span><strong>Grenoble</strong><small>Presqu’île</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Toulon#formulaire"><span><strong>Toulon</strong><small>Centre</small></span><span aria-hidden="true">↗</span></a></li><li><a href="inscription.html?club=Saint-%C3%89tienne#formulaire"><span><strong>Saint-Étienne</strong><small>Châteaucreux</small></span><span aria-hidden="true">↗</span></a></li></ul></section></div>
+  </noscript>
+</section>
+<section class="section club-spaces" aria-labelledby="titre-espaces">
+  <div class="wrap club-spaces-layout">
+    <div>
+      <h2 id="titre-espaces">Les espaces et le matériel</h2>
+      <p>Enchaîne les ateliers HYROX sur les pistes de sled et travaille ton cardio sur les rameurs, les vélos et les tapis de course.</p>
+      <p>Pour la force et l’haltérophilie, retrouve des cages, des plateformes, des barres, des disques et des haltères. Les anneaux permettent aussi de travailler au poids du corps.</p>
+      <a class="btn" href="inscription.html?objectif=essai#formulaire">Demander un essai <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="club-training-photos" role="group" aria-label="Photos des salles">
+    <figure>
+      <img src="images/salle-hybride.jpg" alt="Piste de sled, rameurs et tapis de course alignés" width="900" height="506" loading="lazy" decoding="async">
+      <figcaption>Cardio et entraînement hybride</figcaption>
+    </figure>
+    <figure>
+      <img src="images/salle-piste.jpg" alt="Piste noire, racks et vélos dans une salle d’entraînement" width="1198" height="634" loading="lazy" decoding="async">
+      <figcaption>Piste et entraînement fonctionnel</figcaption>
+    </figure>
+    <figure>
+      <img src="images/salle-force.jpg" alt="Plateformes d’haltérophilie, cages et piste sous une verrière" width="736" height="1408" loading="lazy" decoding="async">
+      <figcaption>Force et haltérophilie</figcaption>
+    </figure>
+    <figure>
+      <img src="images/salle-anneaux.jpg" alt="Anneaux de gymnastique suspendus au-dessus d’une cage" width="736" height="981" loading="lazy" decoding="async">
+      <figcaption>Anneaux et travail au poids du corps</figcaption>
+    </figure>
+    </div>
+  </div>
+</section>
+<section class="dark section" id="recuperation" aria-labelledby="titre-recuperation">
+  <div class="wrap">
+    <h2 id="titre-recuperation">Espace récupération</h2>
+    <p class="lede">Après ta séance, tu peux profiter de la chaleur sèche du sauna ou de la vapeur du hammam, te détendre dans le bain chaud ou te rafraîchir dans le bain froid. Des douches et des vestiaires avec casiers sont également à disposition des adhérents.</p>
+    <div class="club-recovery-photos">
+    <figure>
+      <img src="images/recuperation-bains.jpg" alt="Bains en bois dans un espace de récupération" width="1200" height="1200" loading="lazy" decoding="async">
+    </figure>
+    <figure>
+      <img src="images/recuperation-immersion.jpg" alt="Une personne en immersion dans un bain en bois" width="736" height="1308" loading="lazy" decoding="async">
+    </figure>
+    <figure>
+      <img src="images/recuperation-douches.jpg" alt="Deux douches à effet pluie dans une pièce carrelée" width="1199" height="1558" loading="lazy" decoding="async">
+    </figure>
+    <figure>
+      <img src="images/recuperation-vestiaires.jpg" alt="Casiers en bois et banc dans les vestiaires" width="1200" height="1500" loading="lazy" decoding="async">
+    </figure>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer network-footer">
+ <div class="wrap footer-layout">
+  <a class="club-logotype" href="index.html"><img src="images/favicon.png" alt="" width="64" height="64"><span>IRON YARD</span></a>
+  <nav class="footer-directory" aria-label="Navigation de pied de page"><section><h2>Le projet</h2><ul><li><a href="index.html">Accueil</a></li><li><a href="informations.html">Informations</a></li></ul></section><section><h2>Le réseau</h2><ul><li><a href="box.html" aria-current="page">Les clubs</a></li><li><a href="vie-du-club.html">Vie du club</a></li></ul></section><section><h2>S’entraîner</h2><ul><li><a href="cours.html">Planning</a></li><li><a href="competitions.html">Prépa compétitions</a></li></ul></section><section><h2>Rejoindre</h2><ul><li><a href="inscription.html">Inscription</a></li><li><a href="recrutement.html">Recrutement</a></li></ul></section></nav>
+ </div>
+</footer>
+<script defer src="js/menu.js"></script>
+<script defer src="js/clubs.js"></script>
+</body>
+</html>
